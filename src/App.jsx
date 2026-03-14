@@ -14,7 +14,7 @@ function App() {
   const { photos, loading, error } = useFetchPhotos();
   const [searchTerm, setSearchTerm] = useState('');
   const [favorites, dispatch] = useReducer(favoritesReducer, []);
-
+  
   // Hydrate favorites from localStorage on mount
   useEffect(() => {
     const savedFavorites = localStorage.getItem('favorites');
