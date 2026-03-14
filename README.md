@@ -1,24 +1,21 @@
 # Photo Gallery Web App
 
-A high-performance, responsive photo gallery built with **React**, **Vite**, and **Tailwind CSS**.
+A high-performance, responsive photo gallery built with **React**, **Vite**, and **Tailwind CSS**..
 
-## 🚀 Key Features
+## 🚀 Features
 
-This project was built to demonstrate core React concepts and modern frontend development practices:
+The application implements all 7 core requirements:
 
-1.  **Project Setup**: Initialized with React, Vite, and Tailwind CSS for optimized builds.
-2.  **API Integration**: Fetches 30 photos dynamically from the [Picsum Photos API](https://picsum.photos/v2/list?limit=30).
-3.  **Responsive Design**: A clean, "manual" CSS layout that is mobile-first:
-    -   **Mobile**: 1 column
-    -   
-    -   **Tablet**: 2 columns
-    -   
+1.  **Project Setup**: Modern setup using React + Vite + Tailwind CSS for a fast and scalable foundation.
+2.  **API Integration**: Fetches 30 photos on load from the [Picsum Photos API](https://picsum.photos/v2/list?limit=30).
+3.  **Responsive Grid**: A fluid layout that adapts to all screen sizes:
     -   **Desktop**: 4 columns
-    -   
-4.  **Real-time Search Filter**: Instant filtering by author name with `useMemo` for high performance.
-5.  **State Management**: `useReducer` handles the favorite photo logic and LocalStorage synchronization.
-6.  **Custom Hooks**: Business logic is encapsulated in a reusable `useFetchPhotos` hook.
-7.  **UX Enhancements**: Includes a loading spinner and error handling for better user experience.
+    -   **Tablet**: 2 columns
+    -   **Mobile**: 1 column
+4.  **Real-time Search Filter**: Instant filtering by author name without page reloads or redundant API calls.
+5.  **Favorites with `useReducer`**: Robust state management for adding/removing favorites.
+6.  **Data Persistence**: Uses `localStorage` to ensure favorite photos persist even after a page refresh.
+7.  **Custom Hooks**: logic is cleanly separated using a custom `useFetchPhotos` hook.
 
 ## 🛠️ Technical Implementation
 
@@ -36,10 +33,10 @@ This project was built to demonstrate core React concepts and modern frontend de
 ## 📸 Screenshots
 
 ### Desktop View
-![Full Photo Gallery Grid]()
+![Full Photo Gallery Grid](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/full_gallery_1773511954573.png)
 
 ### Search & Favorites
-![Search and Favorites]()
+![Search and Favorites](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/bottom_of_gallery_1773512094111.png)
 
 ## 📦 Getting Started
 
