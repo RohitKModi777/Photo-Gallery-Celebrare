@@ -1,8 +1,5 @@
 # Photo Gallery Web App
 
-**Author:** [Your Name]  
-**Submission Date:** March 15, 2026
-
 A high-performance, responsive photo gallery built with **React**, **Vite**, and **Tailwind CSS**.
 
 ## 🚀 Key Features
@@ -13,8 +10,11 @@ This project was built to demonstrate core React concepts and modern frontend de
 2.  **API Integration**: Fetches 30 photos dynamically from the [Picsum Photos API](https://picsum.photos/v2/list?limit=30).
 3.  **Responsive Design**: A clean, "manual" CSS layout that is mobile-first:
     -   **Mobile**: 1 column
+    -   
     -   **Tablet**: 2 columns
+    -   
     -   **Desktop**: 4 columns
+    -   
 4.  **Real-time Search Filter**: Instant filtering by author name with `useMemo` for high performance.
 5.  **State Management**: `useReducer` handles the favorite photo logic and LocalStorage synchronization.
 6.  **Custom Hooks**: Business logic is encapsulated in a reusable `useFetchPhotos` hook.
@@ -36,10 +36,10 @@ This project was built to demonstrate core React concepts and modern frontend de
 ## 📸 Screenshots
 
 ### Desktop View
-![Full Photo Gallery Grid](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/full_gallery_1773511954573.png)
+![Full Photo Gallery Grid]()
 
 ### Search & Favorites
-![Search and Favorites](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/bottom_of_gallery_1773512094111.png)
+![Search and Favorites]()
 
 ## 📦 Getting Started
 
