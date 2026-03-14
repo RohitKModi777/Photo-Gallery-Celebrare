@@ -30,14 +30,6 @@ The application implements all 7 core requirements:
 - Encapsulates the fetching logic and returns `{ photos, loading, error }`.
 - Robust error handling and loading states are integrated into the UI.
 
-## 📸 Screenshots
-
-### Desktop View
-![Full Photo Gallery Grid](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/full_gallery_1773511954573.png)
-
-### Search & Favorites
-![Search and Favorites](/C:/Users/modiu/.gemini/antigravity/brain/ee1b6362-c4cb-446d-9c5f-e00f60a6f510/bottom_of_gallery_1773512094111.png)
-
 ## 📦 Getting Started
 
 1. **Clone the repository**
