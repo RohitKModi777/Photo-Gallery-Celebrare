@@ -17,6 +17,11 @@ The application implements all 7 core requirements:
 6.  **Data Persistence**: Uses `localStorage` to ensure favorite photos persist even after a page refresh.
 7.  **Custom Hooks**: logic is cleanly separated using a custom `useFetchPhotos` hook.
 
+OPTIMIZATION (useMemo & useCallback)
+---------------------------------------
+- useMemo: Stops the app from re-calculating the search filter every single time something changes. It only runs if you type something or the photos load.
+- useCallback: Keeps the 'handleSearch' function stable so the search bar doesn't flicker or re-render unnecessarily.
+- 
 ## 🛠️ Technical Implementation
 
 ### Performance Optimization
