@@ -51,7 +51,7 @@ function App() {
       <header>
         <h1 className="title">Photo Gallery</h1>
         <p className="subtitle">
-          Browse through our collection of beautiful photos.
+          Browse through our collection of beautiful photos Which is fetched  from piscum API.
         </p>
         <SearchBar value={searchTerm} onChange={handleSearch} />
       </header>
