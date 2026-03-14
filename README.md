@@ -1,6 +1,5 @@
 # Photo Gallery Web App
-
-A high-performance, responsive photo gallery built with **React**, **Vite**, and **Tailwind CSS**..
+A clean, responsive, and high-performance photo browsing application built with **React**, **Vite**, and **Tailwind CSS**. It features real-time search, favorite persistence using `useReducer` and `localStorage`, and optimized performance via `useMemo` and `useCallback`
 
 ## 🚀 Features
 
